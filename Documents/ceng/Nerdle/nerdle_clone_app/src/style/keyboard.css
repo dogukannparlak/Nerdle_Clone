@@ -1,0 +1,49 @@
+.keyboard-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  margin-top: 10px;
+}
+.keyBoardRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.keyBoardRow > div {
+  font-weight: 700;
+}
+
+.keyBoardArithmeticRow {
+  font-weight: 800 !important;
+  font-size: 1.3vw !important;
+}
+
+.nBtn {
+  border-radius: 5px;
+  cursor: pointer;
+  background: #d3d6da;
+  font-size: 1.3vw;
+  padding: 1.3vw;
+  border: none;
+  text-transform: uppercase;
+}
+
+.key-correct {
+  background: #29a744 !important;
+  color: #fff;
+}
+
+.key-present {
+  background: #FFC006 !important;
+  color: #fff;
+}
+
+.key-absent {
+  background: #dd3445 !important;
+  color: #fff;
+}
+

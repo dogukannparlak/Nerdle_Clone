@@ -1,0 +1,24 @@
+
+.accordion-x {
+  padding: 24px;
+  border-radius: 5px;
+  border: 2px solid black;
+  margin: 5px;
+}
+.accordion{
+border: 2px solid black;
+border-radius: 5px;
+}
+.accordion-button{
+  background-color: grey;
+  color: white;
+}
+.accordion-x .accordion-item {
+  background-color: black;
+  color: white;
+  border: 24px;
+  border-radius: 5px;
+  border-bottom: 2px solid black;
+
+
+}
